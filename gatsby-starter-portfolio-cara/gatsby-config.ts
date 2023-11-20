@@ -19,7 +19,7 @@ const config: GatsbyConfig = {
     author: `@lekoarts_de`,
   },
   trailingSlash: `always`,
-  pathPrefix: "/SpringisCalling.github.io",
+  
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
