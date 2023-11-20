@@ -16,7 +16,7 @@ const config: GatsbyConfig = {
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
     author: `@lekoarts_de`,
-    pathPrefix: "SpringisCalling/SpringisCalling.github.io",
+    pathPrefix: "/SpringisCalling.github.io",
   },
   trailingSlash: `always`,
 
