@@ -16,11 +16,11 @@ const config: GatsbyConfig = {
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
     author: `@lekoarts_de`,
+    pathPrefix: "/SpringisCalling.github.io",
   },
   trailingSlash: `always`,
 
-  pathPrefix: "/SpringisCalling.github.io",
-  
+
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
