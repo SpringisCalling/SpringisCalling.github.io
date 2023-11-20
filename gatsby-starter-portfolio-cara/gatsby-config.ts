@@ -1,5 +1,6 @@
 import type { GatsbyConfig, PluginRef } from "gatsby"
 import "dotenv/config"
+import path from "path"
 
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
@@ -18,6 +19,7 @@ const config: GatsbyConfig = {
     author: `@lekoarts_de`,
   },
   trailingSlash: `always`,
+  pathPrefix: "/SpringisCalling.github.io",
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
@@ -63,3 +65,6 @@ const config: GatsbyConfig = {
 }
 
 export default config
+
+
+
