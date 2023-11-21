@@ -110,7 +110,7 @@
 			var currentText = '';
 			var isCursorVisible = true;
 			var minTypingSpeed = 80; // Minimum typing speed in milliseconds
-			var maxTypingSpeed = 200; // Maximum typing speed in milliseconds
+			var maxTypingSpeed = 350; // Maximum typing speed in milliseconds
 			var cursorInterval = 500; // Adjust the interval for cursor blinking in milliseconds
 		  
 			function toggleCursor() {
