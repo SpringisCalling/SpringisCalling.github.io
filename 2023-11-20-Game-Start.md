@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Game Start"
+title: "Game-Start"
 author: "David Larson"
 ---
 
