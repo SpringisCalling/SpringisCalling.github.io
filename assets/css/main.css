@@ -171,7 +171,8 @@ body {
   -ms-justify-content: center;
   justify-content: center;
   background-color: #000;
-  padding: 6em 4em 4em 4em; }
+  padding: 0em 0em 0em 2em;
+   }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -355,12 +356,16 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none; }
 
 h1 {
-  font-size: 2.5em;
-  line-height: 1.25em; }
+  font-size: 5.5em;
+  line-height: 1.25em;
+ }
+
+  
 
 h2 {
   font-size: 1.75em;
   line-height: 1.5em; 
+
 
   transition: color 0.3s ease; /* Add a smooth transition effect */
 }
@@ -854,9 +859,18 @@ button,
     .button {
       padding: 0; } }
 
+
+
+
+
+
+
+
+      
+
 /* Header */
 #header h1 {
-  font-size: 3.25em;
+  font-size: 1.25em; 
   margin: 0 0 0.55em 0; }
 
 #header p {
