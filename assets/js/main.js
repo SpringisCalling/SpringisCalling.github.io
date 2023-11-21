@@ -95,7 +95,7 @@
 					// Hide last image after a short delay.
 						window.setTimeout(function() {
 							$bgs[lastPos].classList.remove('visible');
-						}, settings.delay / 2);
+						}, settings.delay / 2);	
 
 				}, settings.delay);
 
