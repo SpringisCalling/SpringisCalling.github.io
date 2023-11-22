@@ -199,13 +199,13 @@ body {
 
       .text-container {
         position: absolute; 
-        padding: 90px 120px 800px 90px;
+        padding: 0px 90px 1000px 0px;
       }
       
       
       .text-container2 { 
         position: absolute; 
-        padding: 90px 300px 600px 90px; 
+        padding: 100px 0px 1000px 190px; 
   
       }
       
@@ -214,9 +214,13 @@ body {
       
       .text-container3 { 
         position: relative; 
-        padding: 90px 300px 420px 90px; 
+        padding: 90px 300px 800px 190px; 
   
       }
+      
+
+      .icons  {
+        padding:  10em 0 0; }
     
     }
   @media screen and (max-width: 360px) {
