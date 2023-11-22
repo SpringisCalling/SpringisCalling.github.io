@@ -139,18 +139,23 @@ html, body {
 
 
 .text-container {
-  padding: 0px 0px 800px;
+  position: absolute; 
+  padding: 0px 120px 1000px;
 }
 
 
 .text-container2 { 
   position: absolute; 
-  padding: 0px 10px 600px; 
+  padding: 0px 510px 800px; 
 }
 
 
 
 
+.text-container3 { 
+  position: relative; 
+  padding: 0px 300px 420px; 
+}
 
 
 
@@ -335,7 +340,49 @@ a {
   a:hover {
     border-bottom-color: transparent;
     color: #1cb495 !important;
-    text-decoration: none; }
+    text-decoration: none; 
+  }
+
+
+
+    .icon-container a:hover {
+      border-bottom-color: transparent;
+      color: rgb(0, 140, 255) !important;
+  }
+
+
+  .icon-container1 a:hover {
+    border-bottom-color: transparent;
+    color: rgb(180, 28, 172) !important;
+}
+
+
+.icon-container2 a:hover {
+  border-bottom-color: transparent;
+  color: rgb(0, 0, 0) !important;
+}
+
+.icon-container3 a:hover {
+  border-bottom-color: transparent;
+  color: rgb(255, 255, 255) !important;
+}
+
+
+
+.icon-container4 a:hover {
+  border-bottom-color: transparent;
+  color: rgb(255, 0, 0) !important;
+}
+
+
+.icon-container5 a:hover {
+  border-bottom-color: transparent;
+  color: rgb(226, 3, 208) !important;
+}
+
+
+
+
 
 strong, b {
   color: #fff;
@@ -359,7 +406,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 5.5em;
   line-height: 1.25em;
+
  }
+
 
   
 
@@ -373,9 +422,11 @@ h2 {
 }
 
 h2:hover {
-  color: rgb(71, 105, 255); /* Change the text color on hover to a different color */
+  color: rgb(99, 29, 84); /* Change the text color on hover to a different color */
     padding: 4 4 4 4;
 }
+
+
 
 h3 {
   font-size: 1.35em;
@@ -479,7 +530,8 @@ header h6 + p {
 .icon {
   text-decoration: none;
   border-bottom: none;
-  position: relative; }
+  position: relative; 
+}
   .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -519,10 +571,12 @@ ul {
 ul.icons {
   cursor: default;
   list-style: none;
-  padding-left: 0; }
+  padding-left: 0; 
+
+}
   ul.icons li {
     display: inline-block;
-    padding: 0 1em 0 0; }
+    padding:  6.9em 0 0; }
     ul.icons li:last-child {
       padding-right: 0; }
     ul.icons li .icon:before {
