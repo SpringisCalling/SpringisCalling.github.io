@@ -137,7 +137,6 @@ html, body {
 
 
 
-
 .text-container {
   position: absolute; 
   padding: 0px 120px 1000px;
@@ -196,10 +195,54 @@ body {
       padding: 6em 3.5em 3.5em 3.5em; } }
   @media screen and (max-width: 736px) {
     body {
-      padding: 5em 2em 2em 2em; } }
+      padding: 40em 2em 2em 2em; } 
+
+      .text-container {
+        position: absolute; 
+        padding: 90px 120px 800px 90px;
+      }
+      
+      
+      .text-container2 { 
+        position: absolute; 
+        padding: 90px 300px 600px 90px; 
+  
+      }
+      
+      
+      
+      
+      .text-container3 { 
+        position: relative; 
+        padding: 90px 300px 420px 90px; 
+  
+      }
+    
+    }
   @media screen and (max-width: 360px) {
     body {
-      padding: 5em 1.25em 1.25em 1.25em; } }
+      padding: 5em 1.25em 1.25em 1.25em; 
+    } }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* BG */
 #bg {
@@ -324,10 +367,11 @@ body, input, select, textarea {
       font-size: 12pt; } }
   @media screen and (max-width: 736px) {
     body, input, select, textarea {
-      font-size: 12pt; } }
+      font-size: 8pt; } }
   @media screen and (max-width: 480px) {
     body, input, select, textarea {
-      font-size: 12pt; } }
+      font-size: 8pt; 
+    } }
 
 a {
   -moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
@@ -576,7 +620,7 @@ ul.icons {
 }
   ul.icons li {
     display: inline-block;
-    padding:  6.9em 0 0; }
+    padding:  6.7em 0 0; }
     ul.icons li:last-child {
       padding-right: 0; }
     ul.icons li .icon:before {
@@ -584,49 +628,7 @@ ul.icons {
     ul.icons li a {
       color: inherit; }
 
-/* Form */
-form {
-  margin: 0 0 2em 0; }
-  form .message {
-    text-decoration: none;
-    -moz-transition: opacity 0.2s ease-in-out, -moz-transform 0.2s ease-in-out;
-    -webkit-transition: opacity 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
-    -ms-transition: opacity 0.2s ease-in-out, -ms-transform 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
-    -moz-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
-    height: 2.75em;
-    line-height: 2.75em;
-    opacity: 0; }
-    form .message:before {
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-font-smoothing: antialiased;
-      display: inline-block;
-      font-style: normal;
-      font-variant: normal;
-      text-rendering: auto;
-      line-height: 1;
-      text-transform: none !important;
-      font-family: 'Font Awesome 5 Free';
-      font-weight: 900; }
-    form .message:before {
-      margin-right: 0.5em; }
-    form .message.visible {
-      -moz-transform: scale(1);
-      -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1);
-      opacity: 1; }
-    form .message.success {
-      color: #1cb495; }
-      form .message.success:before {
-        content: '\f00c'; }
-    form .message.failure {
-      color: #ff2361; }
-      form .message.failure:before {
-        content: '\f119'; }
+
 
 label {
   color: #fff;
@@ -948,41 +950,7 @@ button,
   #header {
     margin: 0 0 1em 0; } }
 
-/* Signup Form */
-#signup-form {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  position: relative; }
-  #signup-form input[type="text"],
-  #signup-form input[type="password"],
-  #signup-form input[type="email"] {
-    width: 18em; }
-  #signup-form > * {
-    margin: 0 0 0 1em; }
-  #signup-form > :first-child {
-    margin: 0 0 0 0; }
-  @media screen and (max-width: 480px) {
-    #signup-form {
-      -moz-flex-direction: column;
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column; }
-      #signup-form input[type="type"],
-      #signup-form input[type="password"],
-      #signup-form input[type="email"] {
-        width: 100%; }
-      #signup-form > * {
-        margin: 1.25em 0 0 0; }
-      #signup-form .message {
-        bottom: -1.5em;
-        font-size: 0.9em;
-        height: 1em;
-        left: 0;
-        line-height: inherit;
-        margin-top: 0;
-        position: absolute; } }
+
 
 /* Footer */
 #footer {
